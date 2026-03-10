@@ -1,0 +1,43 @@
+{
+  "house": { "name": "Big Sky House", "total_days": 6 },
+  "pricing": {
+    "total_cost": 19000.00,
+    "equal_split_pct": 50,
+    "private_bath_increase": 15,
+    "multiple_beds_decrease": 30
+  },
+  "rooms": [
+    { "name": "Master Suite", "private_bathroom": true,  "is_multiple_beds": false, "guests": [
+      { "name": "apurva",   "days": 6 },
+      { "name": "nick",     "days": 6 }
+    ]},
+    { "name": "Room 2",       "private_bathroom": true,  "is_multiple_beds": false, "guests": [
+      { "name": "sam",      "days": 6 },
+      { "name": "morgan",   "days": 6 }
+    ]},
+    { "name": "Room 3",       "private_bathroom": false, "is_multiple_beds": false, "guests": [
+      { "name": "ty",       "days": 6 },
+      { "name": "colby",    "days": 6 }
+    ]},
+    { "name": "Room 4",       "private_bathroom": false, "is_multiple_beds": false, "guests": [
+      { "name": "matt",     "days": 6 },
+      { "name": "rachel",   "days": 6 }
+    ]},
+    { "name": "Room 5",       "private_bathroom": false, "is_multiple_beds": false, "guests": [
+      { "name": "alicia",   "days": 6 },
+      { "name": "chandler", "days": 6 }
+    ]},
+    { "name": "Bunk Room 1",  "private_bathroom": false, "is_multiple_beds": true,  "guests": [
+      { "name": "seth",     "days": 6 },
+      { "name": "vasu",     "days": 6 },
+      { "name": "luke",     "days": 6 },
+      { "name": "allender", "days": 6 }
+    ]},
+    { "name": "Bunk Room 2",  "private_bathroom": false, "is_multiple_beds": true,  "guests": [
+      { "name": "austin",   "days": 6 },
+      { "name": "bobby",    "days": 6 },
+      { "name": "evan????", "days": 6 },
+      { "name": "idk",      "days": 6 }
+    ]}
+  ]
+}
